@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FATEC Franca - Projeto CI/CD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FATEC Franca: Demonstração de CI/CD</h1>
+        <h2>Integração Front-end (Vercel) & Back-end (Render)</h2>
+        
+        <p class="info">
+            Esta página simula um aplicativo front-end publicado na Vercel. 
+            Ao clicar no botão, ele fará uma requisição à API em Node.js (publicada no Render).
+        </p>
+
+        <button id="chamarApiBtn">Chamar API do Back-end (Render)</button>
+        
+        <div class="saida-box">
+            <p>Estado da Conexão com a API:</p>
+            <div id="saida" class="message-waiting">... Clique no botão acima para testar a integração ...</div>
+        </div>
+        
+        <p class="footer">Projeto BIMESTRAL - CI/CD</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

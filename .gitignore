@@ -6,8 +6,6 @@ yarn-debug.log*
 .DS_Store
 
 # Ferramentas de Build/Deploy (Vercel)
-# Ignora o cache local da Vercel
-.vercel/
 
 # Arquivos de ambiente locais (se for usar variáveis de ambiente)
 .env.local

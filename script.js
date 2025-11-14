@@ -1,4 +1,4 @@
-const API_URL = ''; 
+const API_URL = 'https://projeto-ci-cd-back-qd12.onrender.com'; 
 
 document.getElementById('chamarApiBtn').addEventListener('click', chamarAPI);
 

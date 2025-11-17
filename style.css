@@ -26,9 +26,10 @@ h1 {
 }
 
 h2 {
-    color: #007bff;
+    color: #ff6b6b;
     margin-top: 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    letter-spacing: 0.5px;
 }
 
 .info {

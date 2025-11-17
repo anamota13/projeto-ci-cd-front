@@ -5,17 +5,17 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #e6eef6; /* Cor de fundo suave */
+    background-color: #d9e8ff; /* Cor de fundo suave levemente mais azul */
     color: #333;
 }
 
 .container {
-    background: #ffffff;
+    background: linear-gradient(135deg, #ffffff, #e3f2ff);
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.18);
     text-align: center;
-    max-width: 600px;
+    max-width: 700px;
     width: 90%;
 }
 
